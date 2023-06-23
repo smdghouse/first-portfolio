@@ -5,13 +5,31 @@ import teslaclone from "../asserts/teslaclone.png"
 import saloon from "../asserts/saloon.png"
 import ecommerce from "../asserts/ecommerce.png"
 import note from "../asserts/note.png"
+import crypto from "../asserts/Screenshot (76).png"
+import ghousetodo from "../asserts/Screenshot (77).png"
 
 import {BsGithub} from "react-icons/bs"
 const Portfolio =()=>{
     const list=[
         {
+            img:crypto,
+            demo:"https://crypto-nerd.netlify.app/",
+            gitbut:"https://github.com/smdghouse/crypto_nerd"
+        },
+        
+        {
+            img:ghousetodo,
+            demo:"https://smdghouse.github.io/vanila_todo/",
+            gitbut:"https://github.com/smdghouse/vanila_todo"
+        },
+        {
+            img:weather,
+            demo:"https://smdghouse.github.io/weather_app/",
+            gitbut:"https://github.com/smdghouse/weather_app"
+        },
+        {
             img:cart,
-            demo:"#",
+            demo:"https://shopping-cart-navy-three.vercel.app/",
             gitbut:"https://github.com/smdghouse/shopping-cart"
         },
         {
@@ -19,11 +37,7 @@ const Portfolio =()=>{
             demo:"https://moviestrail.netlify.app",
             gitbut:"https://github.com/smdghouse/netflixclone"
         },
-        {
-            img:weather,
-            demo:"https://smdghouse.github.io/weather_app/",
-            gitbut:"https://github.com/smdghouse/weather_app"
-        },
+        
         {
             img:teslaclone,
             demo:"https://smdghouse.github.io/tesla-clone/",
